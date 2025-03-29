@@ -1,0 +1,5 @@
+type: Item
+name: Energy Core
+description: carbon based energy deterrent
+charge: 1.5
+explosiveness: 3.1

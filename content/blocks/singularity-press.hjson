@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Singularity Press
+description: creates a special shell to contain a huge amount of energy.
+size: 3
+health: 1000
+outputItems: [
+ energy-core/1
+]
+craftTime: 450
+hasItem: true
+hasPower: true
+itemCapacity: 10
+consumes: {
+items: [
+graphene/5
+copper/5
+lead/10
+]
+power: 60
+}
+requirements: [
+ titanium/120
+ surge-alloy/5
+ silicon/120
+ copper/650
+ lead/1200
+]
+category: crafting

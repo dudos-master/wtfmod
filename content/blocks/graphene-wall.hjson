@@ -1,0 +1,11 @@
+type: Wall
+name: Graphene Wall
+description: Carbon wall
+size: 3
+health: 7600
+armor: 12
+requirements: [
+ graphene/24
+ surge-alloy/5
+]
+category: defense

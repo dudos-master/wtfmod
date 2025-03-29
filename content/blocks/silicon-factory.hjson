@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Silicon Factory
+description: Silicon Factory T3
+size: 4
+health: 1000
+outputItems: [
+ silicon/30
+]
+craftTime: 75
+hasItem: true
+hasPower: true
+itemCapacity: 35
+consumes: {
+items: [
+sand/35
+pyratite/5
+]
+power: 10
+}
+requirements: [
+ phase-fabric/2
+ surge-alloy/2
+ silicon/200
+ copper/200
+ lead/420
+]
+category: crafting

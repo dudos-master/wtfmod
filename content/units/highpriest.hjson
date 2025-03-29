@@ -1,0 +1,59 @@
+type: mech
+name: High Priest
+description: Great creature
+health: 29000
+flying: false
+armor: 75
+speed: 1
+accel: 0.2
+drag: 0.1
+rotateSpeed: 5
+hitSize: 24
+targetAir: true
+type: legs
+legCount: 2
+legLength: 35
+legLengthScl: 0.1
+legSplashDamage: 4
+legSplashRange: 12
+abilities: [{
+type: ForceFieldAbility
+max: 2300
+regen: 10
+cooldown: 60
+radius: 90
+angle: 15
+color: FFFFFF
+region: shield
+}]
+weapons: [{
+name: highpriest-weapon
+shootCone: 5
+shotDelay: 5
+spacing: 9
+shots: 1
+shootSound: laser
+recoil: -17
+recoilTime: 50
+reload: 90
+x: 6.5
+bullet: {
+type: LaserBulletType
+hitSize: 8
+status: melting
+statusDuration: 15
+width: 3
+heigth: 3
+speed: 4
+lifetime: 7
+shootEffect: shockwave
+damage: 120
+knockback: -2
+impact: true
+pierce: true
+pierceBuilding: true
+reflectable: false
+absorbable: false
+healPercent: 50
+}
+}]

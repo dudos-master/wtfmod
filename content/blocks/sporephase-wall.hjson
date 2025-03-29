@@ -1,0 +1,11 @@
+type: Wall
+name: Spore Phase Wall
+description: Kinetic Alloy Wall. The kinetic wall is covered with a layer of phase fabric and spores mixture.
+size: 2
+health: 5990
+requirements: [
+ phase-fabric/12
+ surge-alloy/12
+ spore-pod/6
+]
+category: defense

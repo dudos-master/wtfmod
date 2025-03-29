@@ -1,0 +1,27 @@
+type: PowerTurret
+name: Graviton
+description: Gravity turret
+size: 4
+health: 1200
+hasPower: true
+hasItem: true
+consumes: {
+power: 10
+}
+requirements: [
+ phase-fabric/90
+ surge-alloy/35
+ energy-core/15
+ titanium/400
+ copper/2300
+ graphene/50
+]
+shootType: {
+  type: LaserBulletType
+   damage: 450
+   colors: [8B008B]
+   width: 5
+   shootSound: laserblast
+   range: 25
+}
+category: turret

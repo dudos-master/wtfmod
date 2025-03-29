@@ -1,0 +1,24 @@
+type: OverdriveProjector
+name: Quantum Projector
+description: uses electricity to increase power.
+size: 2
+health: 2000
+reload: 15
+range: 100
+consumes: {
+power: 12
+}
+speedBoost: 3.6
+speedBoostPhase: 1
+useTime: 350
+phaseRangeBoost: 35
+hasBoost: true
+baseColor: 800080
+phaseColor: 4B0082
+requirements: [
+ phase-fabric/50
+ graphene/12
+ titanium/100
+ energy-core/3
+]
+category: effect

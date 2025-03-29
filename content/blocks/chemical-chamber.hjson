@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Singularity Press
+description: Converts graphite into graphene using chemical methods, yes
+size: 4
+health: 540
+outputItems: [
+ graphene/1
+]
+craftTime: 450
+hasItem: true
+hasPower: true
+itemCapacity: 12
+consumes: {
+items: [
+graphite/5
+blast-compound/1
+]
+liquids: [
+water/0.2
+]
+power: 25
+}
+requirements: [
+ titanium/25
+ surge-alloy/15
+ silicon/25
+ copper/436
+ lead/100
+]
+category: crafting

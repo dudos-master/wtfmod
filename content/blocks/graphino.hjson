@@ -1,0 +1,34 @@
+type: TractorBeamTurret
+name: Graphino
+description: shoots an energy stream
+size: 3
+health: 450
+reload: 60
+laserWidth: 0.7
+shootLength: 6.0
+hasPower: true
+hasLiquid: true
+requirements: [
+ graphene/15
+ surge-alloy/12
+ titanium/120
+ thorium/53
+ lead/120
+]
+category: turret
+range: 650
+force: 5
+consumes: {
+power: 4.3
+}
+laserColor: DC143C
+damage: 3
+shootCone: 6
+targetAir: true
+targetGround: true
+shootSound: tractorbeam
+shootSoundVolume: 1
+statusDuration: 300
+laser: null
+laserStart: null
+laserEnd: null

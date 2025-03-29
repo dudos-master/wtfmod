@@ -1,0 +1,18 @@
+type: Battery
+name: Singularity Battery
+description: it compresses the energy in itself
+size: 2
+craftTime: 60
+health: 1230
+consumes: {
+powerBuffered: 120000
+}
+hasPower: true
+category: power
+requirements: [
+energy-core/5
+graphene/20
+copper/450
+silicon/320
+lead/500
+]

@@ -1,0 +1,23 @@
+type: ConsumeGenerator
+name: Oil Burner
+description: burns oil, requires a little water to work.
+size: 2
+health: 650
+powerProduction: 9
+craftItem: 30
+hasItem: true
+hasPower: true
+itemCapacity: 10
+consumes: {
+liquids: [
+water/0.09
+oil/0.1
+]
+}
+requirements: [
+ titanium/56
+ silicon/65
+ copper/96
+ lead/12
+]
+category: power
